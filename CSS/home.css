@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 200vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+}
+
+#heading{
+    height: 130px;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+}
+
+#logo-owner{
+    height: 80px;
+    width: 16%;
+    background-color: grey;
+    position: absolute;
+    top: 14%;
+    left: 3%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo-owner>#logo{
+    height: 80px;
+    width: 35%;
+    background-image: url("../ASSEST/images/logo1.jpg");
+    background-size: 100% 80px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0%;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+}
+
+#logo-owner>#owner{
+    height: 80px;
+    width: 65%;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    position: absolute;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#owner-name{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+    font-size: 10px;
+    position: absolute;
+    right: 1vw;
+    bottom: 2vh;
+}
+
+#social{
+    height: 18px;
+    width: 5%;
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation{
+    height: 3vh;
+    width: 69vw;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -16%;
+    left: 13%;
+}
+
+
+
+#navigation>#content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    border-radius: 10px;
+    width: 100%;
+    list-style: none;
+}
+
+.nav>a{
+    color: white;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+
+
+#brief{
+    height: 450px;
+    width: 70%;
+    background-color: grey;
+    position: absolute;
+    left: 13%;
+    top: 200px;
+    border-radius: 8px;
+}
+
+#brief>h2{
+color: white;
+font-size: 25px;    
+}
+
+#brief>#img1{
+    height: 420px;
+    width: 100%;
+    /* background-color: blue;  */
+    border-radius: 8px;
+    position: absolute;
+    top: 35px;
+    /* background-image: url("../ASSEST/images/brief-img.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 50% 420px;
+    background-position: center;
+}
+
+#order{
+    height: 200px;
+    width: 70%;
+    /* background-color: red; */
+    position: absolute;
+    top: 700px;
+    left: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#order>#work-flow{
+    height: 90px;
+    width: 16%;
+    /* background-color: blueviolet; */
+    background-image: linear-gradient(to top left,blueviolet,red,blue);
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#order>#quote{
+    height: 90px;
+    width: 17%;
+    /* background-color: blueviolet; */
+    background-image: linear-gradient(to top left,blueviolet,red,blue);
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+#order>#collect{
+    height: 90px;
+    width: 17%;
+    /* background-color: blueviolet; */
+    background-image: linear-gradient(to top left,blueviolet,red,blue);
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#benefits{
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+    bottom: -95%;
+    border-top: 4px groove black;
+}
+
+#benefits>#container{
+    height: 395px;
+    width: 70%;
+    /* background-color: blue; */
+    position: absolute;
+    left: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container>.design{
+    height: 290px;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container>#box1{
+    background-color: black;
+    /* background-image: radial-gradient(white,grey,black); */
+}
+
+#container>#box2{
+    background-color: black;
+    /* background-image: radial-gradient(white,grey,black); */
+
+}
+
+#container>#box3{
+    background-color: black;
+    /* background-image: radial-gradient(white,grey,black); */
+
+}
+
+#container>#box4{
+    background-color: black;
+    /* background-image: radial-gradient(white,grey,black); */
+
+}
+
+#book-logo1{
+    position: absolute;
+    top: 23%;
+    left: 3%;
+}
+
+#book-logo2{
+    position: absolute;
+    top: 23%;
+    left: 29%;
+}
+
+#book-logo3{
+    position: absolute;
+    top: 23%;
+    left: 55%;
+}
+
+#book-logo4{
+    position: absolute;
+    top: 23%;
+    left: 80%;
+}
+
+#box1>#product-benefit{
+    color: white;
+    position: absolute;
+    top: 29%;
+    left: 2%;
+}
+
+#product-benefit>#product{
+    width: 25%;
+    text-align: justify;
+    position: relative;
+    top: 30px;
+    left: -1%;
+}
+
+#box2>#thesis-on-demand{
+    color: white;
+    position: absolute;
+    top: 29%;
+    left: 28%;
+}
+
+#thesis-on-demand>#thesis{
+    width: 25%;
+    text-align: justify;
+    position: relative;
+    top: 30px;
+    left: 1%;
+}
+
+#box3>#thesis-on-demand{
+    width: 20%;
+    color: white;
+    position: absolute;
+    top: 29%;
+}
+
+#thesis-on-demand>#quality-on{
+    width: 110%;
+    text-align: justify;
+    position: relative;
+    top: 10px;
+    left: 1%;
+}
+
+
+
+#box4>#why-us{
+    color: white;
+    position: absolute;
+    top: 29%;
+}
+#footer{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: -100%;
+}
+
+#footer>#nav2{
+    color: white;
+    list-style: none;
+    width: 38%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 5%;
+    bottom: 30%;
+}
+
+.nav-bottom>a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+#footer>#copy-right{
+    position: absolute;
+    right: 20%;
+    top: 5%;
+}
+
+#copy-right+#copy-belong{
+    height: 40px;
+    width: 10%;
+    /* background-color: red; */
+    position: absolute;
+    right: 9.5%;
+    color: white;
+}
